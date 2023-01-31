@@ -14,7 +14,7 @@ export const Navbar = () => {
                 </Link>
             </div>
             <div className="col">
-                <ul className="nav justify-content-center">
+                <ul className="nav justify-content-center align-content-center">
                     <LinkBtn name="Products" path="products" />
                     <LinkBtn name="Pricing" path="pricing" />
                     <LinkBtn name="Contact" path="contact" />

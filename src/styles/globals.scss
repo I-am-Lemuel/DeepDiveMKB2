@@ -16,6 +16,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -47,6 +48,43 @@ a {
 
 .login-btn:hover {
   scale: 1.05 !important;
+}
+
+.hero-bg {
+	width: 100vw;
+  margin-bottom: 3rem;
+	height: 75vh;
+	background: linear-gradient(334deg, #8FB3DA, #2288CF, #2D3B8D);
+	background-size: 180% 180%;
+	animation: gradient-animation 6s ease infinite;
+  clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
+}
+
+
+.hero-title {
+  font-size: 10vw;
+  font-weight: 1000;
+  color: #fff;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 2vw;
+  font-weight: 1000;
+  color: #343a40;
+  text-align: center;
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 
 
