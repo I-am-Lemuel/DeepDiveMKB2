@@ -1,0 +1,78 @@
+$theme-colors: (
+  "primary": red,
+  "secondary": #1C93D8,
+  "success": #28a745,
+  "info": #17a2b8,
+  "warning": #ffc107,
+  "danger": #dc3545,
+  "light": #ffffff,
+  "dark": #343a40,
+);
+
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.nav-link-h {
+  border-bottom: #1C93D8 0px solid !important;
+}
+
+.nav-link-a {
+  border-bottom: #1C93D8 1px solid !important;
+}
+
+.nav-link-h:hover {
+  border-bottom: #1C93D8 1px solid !important;
+}
+
+
+.login-btn {
+  transition: all 0.2s ease-in-out !important;
+  
+}
+
+.login-btn:hover {
+  scale: 1.05 !important;
+}
+.bdr {
+  margin: 2rem !important;
+}
+
+.pricing-table {
+
+  th {
+    color: #343a40;
+    opacity: 0.5;
+  }
+
+  th,
+  td {
+    padding: 2.5rem 1rem !important;
+  }
+
+  th:nth-child(3) {
+    text-align: center;
+  }
+
+  td:nth-child(3) {
+    padding: 2.5rem 4rem !important;
+    text-align: right;
+  }
+}
+
+
+@import "~bootstrap/scss/bootstrap";
