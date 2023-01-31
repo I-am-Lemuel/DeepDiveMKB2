@@ -18,7 +18,7 @@ export const Footer = () => {
                 <h6 class="text-uppercase fw-bold mb-4">
                   <i class="fas fa-gem me-3"></i>Contact Us:
                 </h6>
-                <p>
+                <div>
                   <p>
                     <Link href="/investor">Yash.ramdjas@globadyme.com</Link>
                   </p>
@@ -29,7 +29,7 @@ export const Footer = () => {
                   <FiInstagram size={28} className="me-1" />
                   <BsLinkedin size={25} className="me-1" />
                   <BsTelephoneFill size={25} />
-                </p>
+                </div>
               </div>
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4">{/* Products */}</h6>
