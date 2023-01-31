@@ -31,6 +31,18 @@ a {
   border-bottom: #1C93D8 0px solid !important;
 }
 
+.pov-card-h {
+  transition: all 0.15s ease-in-out !important;
+}
+
+.pov-card-h:hover {
+  scale: 1.03 !important;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1) !important;
+  border-radius: 1rem !important;
+
+
+}
+
 .nav-link-a {
   border-bottom: #1C93D8 1px solid !important;
 }
