@@ -99,5 +99,27 @@ a {
 	}
 }
 
+footer {
+  height: 20vh;
+}
+
+.f-links a:link {
+  text-decoration: none;
+  color: #343a40;
+  margin-left: 2.5px;
+    margin-right: 2.5px;
+}
+
+.f-icons a:hover {
+  text-decoration: none;
+  color: #343a40;
+  filter: brightness(0.5);
+}
+
+.f-link-container {
+  background-color: #2288CF;
+  border-radius: 100%;
+  padding: 15px;
+}
 
 @import "~bootstrap/scss/bootstrap";
