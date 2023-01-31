@@ -7,21 +7,14 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-    <footer className="">
       <footer class="text-center text-lg-start bg-light text-muted">
-        {/* <!-- Section: Social media --> */}
         <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
           <Image src="/logo.png" width={300} height={75} alt="company logo" />
         </section>
-        {/* <!-- Section: Social media --> */}
-        {/* <!-- Section: Links  --> */}
-        <section class="">
+        <section>
           <div class="container text-center text-md-start mt-5">
-            {/* <!-- Grid row --> */}
             <div class="row mt-3">
-              {/* <!-- Grid column --> */}
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                {/* <!-- Content --> */}
                 <h6 class="text-uppercase fw-bold mb-4">
                   <i class="fas fa-gem me-3"></i>Contact Us:
                 </h6>
@@ -38,9 +31,7 @@ export const Footer = () => {
                   <BsTelephoneFill size={25} />
                 </p>
               </div>
-              {/* <!-- Grid column --> */}
               <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                {/* <!-- Links --> */}
                 <h6 class="text-uppercase fw-bold mb-4">{/* Products */}</h6>
                 <p>
                   <Link href="/about_us">• About us</Link>
@@ -58,22 +49,16 @@ export const Footer = () => {
                   <Link href="/privacy">• Privacy policy</Link>
                 </p>
               </div>
-              {/* <!-- Grid column --> */}
             </div>
           </div>
         </section>
-
-        {/* <!-- Copyright --> */}
         <div class="text-center p-4">
           © 2023 Globadyme <br></br>
           <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
             Made with love by Globsquad
           </a>
         </div>
-        {/* <!-- Copyright --> */}
       </footer>
-      {/* <!-- Footer --> */}
-    </footer>
   );
 };
 export default Footer;
