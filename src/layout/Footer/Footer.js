@@ -44,7 +44,7 @@ export const Footer = () => {
           <p>·</p>
           <Link href="/license">Licensing</Link>
           <p>·</p>
-          <Link href="/terms">Terms and Conditions</Link>
+          <Link href="/terms">Terms Of Service</Link>
           <p>·</p>
           <Link href="/privacy">Privacy Policy</Link>
           <p>·</p>
