@@ -129,6 +129,16 @@ footer {
   height: 20vh;
 }
 
+.about-image-h {
+  transition: all 0.25s ease-in-out !important;
+}
+
+.about-image-h:hover {
+  scale: 1.015 !important;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 2.5rem !important;
+}
+
 .f-links a:link {
   text-decoration: none;
   color: #343a40;
