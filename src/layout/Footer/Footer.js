@@ -36,9 +36,9 @@ export const Footer = () => {
     //   </div>
     //   <p className="">© 2023 Globadyme</p>
     // </footer >
-    <footer className="row">
-      <div className="col d-flex image justify-content-center align-items-center">
-        <div>
+    <footer className="d-flex">
+      <div className="col d-flex justify-content-center align-items-center">
+        <div className="">
           <Image src="/logo.png" width={288} height={68} alt="company logo" />
           <div className="justify-content-evenly d-flex mt-2">
             <Link className="f-link" href="mailto:Yash.ramdjas@globadyme.com">
@@ -56,11 +56,21 @@ export const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="col">
-
+      <div className="col d-flex justify-content-center align-items-center">
+        <div className="d-flex flex-column">
+          <h3 className="fw-bold">Company</h3>
+          <Link className="f-link" href="/about">About us</Link>
+          <Link className="f-link" href="/license">Licensing</Link>
+          <Link className="f-link" href="/docs">Documentation</Link>
+        </div>
       </div>
-      <div className="col">
-
+      <div className="col d-flex justify-content-center align-items-center">
+        <div className="d-flex flex-column">
+          <h3 className="fw-bold">Company</h3>
+          <Link className="f-link" href="/privacy">Privacy Policy</Link>
+          <Link className="f-link" href="/investors">Investor Relations</Link>
+          <Link className="f-link" href="/terms">Terms and Conditions</Link>
+        </div>
       </div>
     </footer>
 
