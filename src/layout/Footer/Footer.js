@@ -48,7 +48,7 @@ export const Footer = () => {
           <p>·</p>
           <Link href="/privacy">Privacy Policy</Link>
           <p>·</p>
-          <Link href="/docs">Documentation</Link>
+          <Link href="/documentation">Documentation</Link>
         </div>
         <div className="d-flex justify-content-center">
           <div className="image">
