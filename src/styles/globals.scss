@@ -27,6 +27,7 @@ a {
   box-sizing: border-box;
 }
 
+
 .nav-link-h {
   border-bottom: #1C93D8 0px solid !important;
 }
@@ -89,7 +90,7 @@ a {
 
 .hero-bg {
   margin-bottom: 3rem;
-	height: 75vh;
+	height: 80vh;
 	background: linear-gradient(334deg, #8FB3DA, #2288CF, #2D3B8D);
 	background-size: 180% 180%;
 	animation: gradient-animation 6s ease infinite;
@@ -130,6 +131,16 @@ footer {
 .f-links a:visited {
   text-decoration: none;
   color: #343a40;
+}
+
+.about-image-h {
+  transition: all 0.25s ease-in-out !important;
+}
+
+.about-image-h:hover {
+  scale: 1.015 !important;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) !important;
+  border-radius: 2.5rem !important;
 }
 
 .f-links a:link {
