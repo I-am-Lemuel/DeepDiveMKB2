@@ -1,19 +1,17 @@
 export default function Terms() {
   return (
     <>
-      <h1 className="display-1 fw-bold text-center">
-        Terms Of Service
-      </h1>
+      <h1 className="display-1 fw-bold text-center">Terms Of Service</h1>
 
       <div className="container">
         <div className="border-bottom mb-4">
           <p className="fw-bold">
-              Welcome to our company&apos;s website, where we offer payment
-              solutions to individuals and businesses. These Terms of Service
-              (“TOS”) govern your use of our website, products and services
-              (collectively, “Services”). By accessing or using our Services,
-              you agree to be bound by these TOS, including our Privacy Policy.
-              If you do not agree to these TOS, you may not use our Services.
+            Welcome to our company&apos;s website, where we offer payment
+            solutions to individuals and businesses. These Terms of Service
+            (“TOS”) govern your use of our website, products and services
+            (collectively, “Services”). By accessing or using our Services, you
+            agree to be bound by these TOS, including our Privacy Policy. If you
+            do not agree to these TOS, you may not use our Services.
           </p>
         </div>
         <div className="border-bottom mb-4">
