@@ -16,7 +16,10 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
   Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+<<<<<<< HEAD
+=======
   overflow-x: hidden;
+>>>>>>> main
 }
 
 a {
@@ -32,6 +35,8 @@ a {
   border-bottom: #1C93D8 0px solid !important;
 }
 
+<<<<<<< HEAD
+=======
 .pov-card-h {
   transition: all 0.15s ease-in-out !important;
 }
@@ -44,6 +49,7 @@ a {
 
 }
 
+>>>>>>> main
 .nav-link-a {
   border-bottom: #1C93D8 1px solid !important;
 }
@@ -61,6 +67,32 @@ a {
 .login-btn:hover {
   scale: 1.05 !important;
 }
+.bdr {
+  margin: 2rem !important;
+}
+
+.pricing-table {
+
+  th {
+    color: #343a40;
+    opacity: 0.5;
+  }
+
+  th,
+  td {
+    padding: 2.5rem 1rem !important;
+  }
+
+  th:nth-child(3) {
+    text-align: center;
+  }
+
+  td:nth-child(3) {
+    padding: 2.5rem 4rem !important;
+    text-align: right;
+  }
+}
+
 
 .hero-bg {
 	width: 100vw;
