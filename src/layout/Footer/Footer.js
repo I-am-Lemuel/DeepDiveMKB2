@@ -1,37 +1,27 @@
-import Link from "next/link";
 import Image from "next/image";
-import { ContactBtn } from "../../components/ContactBtn/ContactBtn";
-import { FiMail } from "react-icons/fi";
-import { FiInstagram } from "react-icons/fi";
-import { BsLinkedin } from "react-icons/bs";
-import { BsTelephoneFill } from "react-icons/bs";
+import Link from "next/link";
+import React from "react";
+import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
+import { FiInstagram, FiMail } from "react-icons/fi";
 
 export const Footer = () => {
   return (
-    <footer className="d-flex flex-column align-items-center mt-3">
-      <div className="h-75 align-items-center justify-center justify-content-between d-flex flex-column">
-        <div>
-          <ContactBtn />
-        </div>
-        <div className="d-flex f-icons">
-          <div className="me-1 f-link-container">
-            <Link href="mailto:Yash.ramdjas@globadyme.com">
-              <FiMail size={25} color="white" />
+    <footer className="d-flex justify-content-around w-screen">
+      <div className="d-flex justify-content-center">
+        <div className="">
+          <Image src="/logo.png" width={288} height={68} alt="company logo" />
+          <div className="justify-content-evenly d-flex mt-4">
+            <Link className="f-link" href="mailto:Yash.ramdjas@globadyme.com">
+              <FiMail size={25} color="black" />
             </Link>
-          </div>
-          <div className="me-1 f-link-container">
-            <Link href="https://www.instagram.com/globadyme/">
-              <FiInstagram size={25} color="white" />
+            <Link className="f-link" href="https://www.instagram.com/globadyme/">
+              <FiInstagram size={25} color="black" />
             </Link>
-          </div>
-          <div className="me-1 f-link-container">
-            <Link href="https://www.linkedin.com/company/globadyme/about/">
-              <BsLinkedin size={25} color="white" />
+            <Link className="f-link" href="https://www.linkedin.com/company/globadyme/about/">
+              <BsLinkedin size={25} color="black" />
             </Link>
-          </div>
-          <div className="f-link-container">
-            <Link href="tel:+31653795484">
-              <BsTelephoneFill size={25} color="white" />
+            <Link className="f-link" href="tel:+31653795484">
+              <BsTelephoneFill size={25} color="black" />
             </Link>
           </div>
         </div>
@@ -55,11 +45,17 @@ export const Footer = () => {
             <Image src="/logo.png" width={288} height={68} alt="company logo" />
           </div>
         </div>
-        <div className="d-flex justify-content-center">
-          <p className="text-faded">© 2023 Globadyme</p>
+      </div>
+      <div className="d-flex justify-content-center">
+        <div className="d-flex flex-column mt-4">
+          <h3 className="fw-bold mb-3">Company</h3>
+          <Link className="f-link" href="/privacy">Privacy Policy</Link>
+          <Link className="f-link" href="/investors">Investor Relations</Link>
+          <Link className="f-link" href="/terms">Terms and Conditions</Link>
         </div>
       </div>
     </footer>
+
   );
 };
 export default Footer;
