@@ -47,6 +47,8 @@ export const Footer = () => {
           <Link href="/terms">Terms and Conditions</Link>
           <p>·</p>
           <Link href="/privacy">Privacy Policy</Link>
+          <p>·</p>
+          <Link href="/docs">Documentation</Link>
         </div>
         <div className="d-flex justify-content-center">
           <div className="image">
