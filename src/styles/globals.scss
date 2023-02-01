@@ -127,6 +127,11 @@ a {
 }
 
 
+.f-links a:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
 .about-image-h {
   transition: all 0.25s ease-in-out !important;
 }
