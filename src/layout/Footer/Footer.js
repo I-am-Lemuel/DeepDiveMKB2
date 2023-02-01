@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
+import { ContactBtn } from "../../components/ContactBtn/ContactBtn";
 import { FiMail } from "react-icons/fi";
 import { FiInstagram } from "react-icons/fi";
 import { BsLinkedin } from "react-icons/bs";
@@ -7,58 +8,56 @@ import { BsTelephoneFill } from "react-icons/bs";
 
 export const Footer = () => {
   return (
-      <footer class="text-center text-lg-start bg-light text-muted">
-        <section class="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
-          <Image src="/logo.png" width={300} height={75} alt="company logo" />
-        </section>
-        <section>
-          <div class="container text-center text-md-start mt-5">
-            <div class="row mt-3">
-              <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">
-                  <i class="fas fa-gem me-3"></i>Contact Us:
-                </h6>
-                <p>
-                  <p>
-                    <Link href="/investor">Yash.ramdjas@globadyme.com</Link>
-                  </p>
-                  <p>
-                    <Link href="/investor">(+31) 6 53 79 54 84</Link>
-                  </p>
-                  <FiMail size={30} className="me-1" />
-                  <FiInstagram size={28} className="me-1" />
-                  <BsLinkedin size={25} className="me-1" />
-                  <BsTelephoneFill size={25} />
-                </p>
-              </div>
-              <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
-                <h6 class="text-uppercase fw-bold mb-4">{/* Products */}</h6>
-                <p>
-                  <Link href="/about_us">• About us</Link>
-                </p>
-                <p>
-                  <Link href="/investor">• Investor relations</Link>
-                </p>
-                <p>
-                  <Link href="/liscensing">• Liscensing</Link>
-                </p>
-                <p>
-                  <Link href="/terms_conditions">• Terms and conditions</Link>
-                </p>
-                <p>
-                  <Link href="/privacy">• Privacy policy</Link>
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-        <div class="text-center p-4">
-          © 2023 Globadyme <br></br>
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-            Made with love by Globsquad
-          </a>
+    <footer className="d-flex flex-column align-items-center mt-3">
+      <div className="h-75 align-items-center justify-center justify-content-between d-flex flex-column">
+        <div>
+          <ContactBtn />
         </div>
-      </footer>
+        <div className="d-flex f-icons">
+          <div className="me-1 f-link-container">
+            <Link href="mailto:Yash.ramdjas@globadyme.com">
+              <FiMail size={25} color="white" />
+            </Link>
+          </div>
+          <div className="me-1 f-link-container">
+            <Link href="https://www.instagram.com/globadyme/">
+              <FiInstagram size={25} color="white" />
+            </Link>
+          </div>
+          <div className="me-1 f-link-container">
+            <Link href="https://www.linkedin.com/company/globadyme/about/">
+              <BsLinkedin size={25} color="white" />
+            </Link>
+          </div>
+          <div className="f-link-container">
+            <Link href="tel:+31653795484">
+              <BsTelephoneFill size={25} color="white" />
+            </Link>
+          </div>
+        </div>
+      </div>
+      <div className="h-25">
+        <div className="d-flex f-links mt-4">
+          <Link href="/about">About us</Link>
+          <p>·</p>
+          <Link href="/investors">Investor Relations</Link>
+          <p>·</p>
+          <Link href="/license">Licensing</Link>
+          <p>·</p>
+          <Link href="/terms">Terms and Conditions</Link>
+          <p>·</p>
+          <Link href="/privacy">Privacy Policy</Link>
+        </div>
+        <div className="d-flex justify-content-center">
+          <div className="image">
+            <Image src="/logo.png" width={288} height={68} alt="company logo" />
+          </div>
+        </div>
+        <div className="d-flex justify-content-center">
+          <p className="text-faded">© 2023 Globadyme</p>
+        </div>
+      </div>
+    </footer>
   );
 };
 export default Footer;
