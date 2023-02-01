@@ -4,35 +4,38 @@ import { Image } from 'react-bootstrap';
 export const PointOfView = () => {
     return (
         <div className="container mt-5 justify-content-center mb-5">
-            <h2 className="text-center fw-bold mb-4">Point of View</h2>
-            {/* 3 Cards */}
-            <div className="row row-cols-1 row-cols-md-3 g-3">
-                <div className="col">
-                    <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
-                        <Image src="https://wsrv.nl/?url=https://www.fisdom.com/wp-content/uploads/2021/11/invoice-bill-icon.webp&w=500&h=250&fit=cover" className="card-img-top" alt="Transactions Image" />
-                        <div className="card-body">
-                            <h5 className="card-title fw-semibold">Reducing transaction costs by 50%</h5>
-                            <p className="card-text">Due to the unique structure Globadyme adopts, we can reduce transaction costs by 50% per transaction.</p>
-                        </div>
+            <div>
 
-                    </div>
-                </div>
-                <div className="col">
-                    <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
-                        <Image src="https://wsrv.nl/?url=https://www.buckaroo.eu/media/3732/betaaloplossingen-buckaroo-banner-2022-2-new.png&w=500&h=250&fit=cover" className="card-img-top" alt="Payment method Image" />
-                        <div className="card-body">
-                            <h5 className="card-title fw-semibold">All the payment methods & currencies you need</h5>
-                            <p className="card-text">Your customers can always Pay with their preferred Payment methods and desired currencies with Globadyme.</p>
-                        </div>
+                <h2 className="text-center fw-bold mb-4">Point of View</h2>
+                {/* 3 Cards */}
+                <div className="row row-cols-1 row-cols-md-3 g-3">
+                    <div className="col">
+                        <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
+                            <Image src="https://wsrv.nl/?url=https://www.fisdom.com/wp-content/uploads/2021/11/invoice-bill-icon.webp&w=500&h=250&fit=cover" className="card-img-top" alt="Transactions Image" />
+                            <div className="card-body">
+                                <h5 className="card-title fw-semibold">Reducing transaction costs by 50%</h5>
+                                <p className="card-text">Due to the unique structure Globadyme adopts, we can reduce transaction costs by 50% per transaction.</p>
+                            </div>
 
+                        </div>
                     </div>
-                </div>
-                <div className="col">
-                    <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
-                        <Image src="https://wsrv.nl/?url=https://i.imgur.com/k6UQ0jD.png&w=333&h=166&fit=cover" className="card-img-top" alt="Handshake Image" />
-                        <div className="card-body">
-                            <h5 className="card-title fw-semibold">Win-Win scenario</h5>
-                            <p className="card-text">While reducing your transaction costs, we also make sure that your customers can always Pay with their preferred Payment methods and currencies. </p>
+                    <div className="col">
+                        <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
+                            <Image src="https://wsrv.nl/?url=https://www.buckaroo.eu/media/3732/betaaloplossingen-buckaroo-banner-2022-2-new.png&w=500&h=250&fit=cover" className="card-img-top" alt="Payment method Image" />
+                            <div className="card-body">
+                                <h5 className="card-title fw-semibold">All the payment methods & currencies you need</h5>
+                                <p className="card-text">Your customers can always Pay with their preferred Payment methods and desired currencies with Globadyme.</p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div className="col">
+                        <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
+                            <Image src="https://wsrv.nl/?url=https://i.imgur.com/k6UQ0jD.png&w=333&h=166&fit=cover" className="card-img-top" alt="Handshake Image" />
+                            <div className="card-body">
+                                <h5 className="card-title fw-semibold">Win-Win scenario</h5>
+                                <p className="card-text">While reducing your transaction costs, we also make sure that your customers can always Pay with their preferred Payment methods and currencies. </p>
+                            </div>
                         </div>
                     </div>
                 </div>
