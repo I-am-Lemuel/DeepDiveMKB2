@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 import { PricingTablePayment } from "../components/PricingTablePayment/PricingTablePayment";
 import { useState } from "react";
 import { PricingTableRefund } from "../components/PricingTableRefund/PricingTableRefund";
-=======
 
-export default function Pricing() {
->>>>>>> main
 
 export default function Pricing() {
     const [isPayment, setIsPayment] = useState(true);
@@ -26,6 +22,7 @@ export default function Pricing() {
             </div>
         <div>
 
+        </div>
         </div>
 
     )
