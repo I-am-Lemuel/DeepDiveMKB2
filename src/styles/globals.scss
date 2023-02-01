@@ -9,13 +9,13 @@ $theme-colors: (
   "dark": #343a40,
 );
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-  Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Montserrat', sans-serif !important;
 }
 
 a {
@@ -137,6 +137,12 @@ a {
 
 footer {
   height: 20vh;
+}
+
+.f-link {
+  color: #343a40;
+  opacity: 0.8;
+  text-decoration: none;
 }
 
 @import "~bootstrap/scss/bootstrap";
