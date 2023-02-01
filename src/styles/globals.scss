@@ -141,7 +141,13 @@ footer {
   height: 20vh;
 }
 
-.f-link {
+.f-links a:visited {
+  text-decoration: none;
+  color: #343a40;
+}
+
+.f-links a:link {
+  text-decoration: none;
   color: #343a40;
   opacity: 0.8;
   text-decoration: none;

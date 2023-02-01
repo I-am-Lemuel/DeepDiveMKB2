@@ -14,10 +14,16 @@ export const Footer = () => {
             <Link className="f-link" href="mailto:Yash.ramdjas@globadyme.com">
               <FiMail size={25} color="black" />
             </Link>
-            <Link className="f-link" href="https://www.instagram.com/globadyme/">
+            <Link
+              className="f-link"
+              href="https://www.instagram.com/globadyme/"
+            >
               <FiInstagram size={25} color="black" />
             </Link>
-            <Link className="f-link" href="https://www.linkedin.com/company/globadyme/about/">
+            <Link
+              className="f-link"
+              href="https://www.linkedin.com/company/globadyme/about/"
+            >
               <BsLinkedin size={25} color="black" />
             </Link>
             <Link className="f-link" href="tel:+31653795484">
@@ -30,21 +36,32 @@ export const Footer = () => {
       <div className="d-flex justify-content-center">
         <div className="d-flex flex-column mt-4">
           <h3 className="fw-bold mb-3">Company</h3>
-          <Link className="f-link" href="/about">About us</Link>
-          <Link className="f-link" href="/license">Licensing</Link>
-          <Link className="f-link" href="/docs">Documentation</Link>
+          <Link className="f-link" href="/about">
+            About us
+          </Link>
+          <Link className="f-link" href="/license">
+            Licensing
+          </Link>
+          <Link className="f-link" href="/docs">
+            Documentation
+          </Link>
         </div>
       </div>
       <div className="d-flex justify-content-center">
         <div className="d-flex flex-column mt-4">
           <h3 className="fw-bold mb-3">Company</h3>
-          <Link className="f-link" href="/privacy">Privacy Policy</Link>
-          <Link className="f-link" href="/investors">Investor Relations</Link>
-          <Link className="f-link" href="/terms">Terms and Conditions</Link>
+          <Link className="f-link" href="/privacy">
+            Privacy Policy
+          </Link>
+          <Link className="f-link" href="/investors">
+            Investor Relations
+          </Link>
+          <Link className="f-link" href="/terms">
+            Terms and Conditions
+          </Link>
         </div>
       </div>
     </footer>
-
   );
 };
 export default Footer;
