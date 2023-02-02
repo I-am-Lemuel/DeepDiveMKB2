@@ -20,6 +20,9 @@
         ],
         "/contact": [
             "contact"
+        ],
+        "/terms": [
+            "terms"
         ]
     }
 }
