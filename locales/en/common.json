@@ -1,8 +1,15 @@
 {
- "nav_products": "Products",
- "nav_pricing": "Pricing",
- "nav_contact": "Contact",
- "nav_about": "About us",
- "nav_login": "Login",
- "nav_signup": "Sign up"   
+    "nav_products": "Products",
+    "nav_pricing": "Pricing",
+    "nav_contact": "Contact",
+    "nav_about": "About us",
+    "nav_login": "Login",
+    "nav_signup": "Sign up",
+    "modal_login": "Login",
+    "modal_mail": "Email adress",
+    "modal_password": "Password",
+    "modal_remember": "Remember me",
+    "modal_forgot": "Forgot password?",
+    "modal_notamember": "Not a member?",
+    "modal_signup": "Sign up"
 }
