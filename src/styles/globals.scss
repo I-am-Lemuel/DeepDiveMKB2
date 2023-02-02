@@ -130,17 +130,6 @@ footer {
   height: 20vh;
 }
 
-.f-links a:link {
-  text-decoration: none;
-  color: #343a40;
-  margin-left: 2.5px;
-    margin-right: 2.5px;
-}
-
-.f-links a:hover {
-  color: #2288CF;
-}
-
 .f-icons a:hover {
   text-decoration: none;
   filter: brightness(0.8);
@@ -156,6 +145,10 @@ footer {
   background-color: #2288CF;
   border-radius: 100%;
   padding: 15px;
+}
+
+.f-link {
+  text-decoration: none;
 }
 
 @import "~bootstrap/scss/bootstrap";
