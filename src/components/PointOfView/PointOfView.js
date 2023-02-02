@@ -3,6 +3,7 @@ import { Image } from "react-bootstrap";
 
 export const PointOfView = () => {
   return (
+    <>
     <div className="container mt-5 justify-content-center mb-5">
       <div>
         <h2 className="text-center fw-bold mb-4">Point of View</h2>
@@ -61,8 +62,9 @@ export const PointOfView = () => {
               </div>
             </div>
         </div>
-    )
-}          </div>
+  
+    
+       </div>
         </div>
       </div>
       {/* Vision*/}
@@ -110,6 +112,6 @@ export const PointOfView = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
