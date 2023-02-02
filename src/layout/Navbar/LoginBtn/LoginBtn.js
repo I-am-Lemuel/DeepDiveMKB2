@@ -7,7 +7,7 @@ export const LoginBtn = () => {
     <li>
       <Link href="/login">
         <button className="mx-2 btn btn-secondary text-white rounded-pill shadow-sm login-btn">
-          {t('nav_login')}
+          {t("nav_login")}
         </button>
       </Link>
     </li>
