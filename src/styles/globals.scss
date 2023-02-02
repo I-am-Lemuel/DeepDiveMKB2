@@ -1,5 +1,5 @@
 $theme-colors: (
-  "primary": red,
+  "primary": #0d5f96,
   "secondary": #1C93D8,
   "success": #28a745,
   "info": #17a2b8,
@@ -169,29 +169,28 @@ color: black;
 	}
 }
 
-
-.f-links a:visited {
-  text-decoration: none;
-  color: #343a40;
-}
-
-.about-image-h {
-  transition: all 0.25s ease-in-out !important;
-}
-
-.about-image-h:hover {
-  scale: 1.015 !important;
-  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.2) !important;
-  border-radius: 2.5rem !important;
-}
-
 footer {
   height: 20vh;
 }
 
+.f-icons a:hover {
+  text-decoration: none;
+  filter: brightness(0.8);
+}
+
+.f-icons a:link {
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #2288CF;
+}
+
+.f-link-container {
+  background-color: #2288CF;
+  border-radius: 100%;
+  padding: 15px;
+}
+
 .f-link {
-  color: #343a40;
-  opacity: 0.8;
   text-decoration: none;
 }
 
