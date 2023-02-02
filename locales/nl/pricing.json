@@ -1,0 +1,12 @@
+{
+    "payment_title": "Betaling",
+    "payment_method": "Betaalmethode",
+    "country_of_client": "Land van de klant",
+    "handling_fee": "Verwerkingskosten",
+    "payment_fee": "Betalingskosten",
+    "refund_title": "Terugbetaling",
+    "refund_fee": "Terugbetalingskosten",
+    "netherlands": "Nederland",
+    "worldwide": "Wereldwijd",
+    "currency_symbol": "€"
+}

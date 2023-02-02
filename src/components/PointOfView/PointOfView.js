@@ -1,12 +1,14 @@
 import Link from "next/link";
 import { Image } from "react-bootstrap";
+import useTranslation from "next-translate/useTranslation";
 
 export const PointOfView = () => {
+  const { t } = useTranslation("home");
   return (
     <>
     <div className="container mt-5 justify-content-center mb-5">
       <div>
-        <h2 className="text-center fw-bold mb-4">Point of View</h2>
+        <h2 className="text-center fw-bold mb-4">{t('pov')}</h2>
         {/* 3 Cards */}
         <div className="row row-cols-1 row-cols-md-3 g-3">
           <div className="col">
@@ -18,11 +20,10 @@ export const PointOfView = () => {
               />
               <div className="card-body">
                 <h5 className="card-title fw-semibold">
-                  Reducing costs by 50%
+                  {t('reducing_cost')}
                 </h5>
                 <p className="card-text">
-                  Due to the unique structure Globadyme adopts, we can reduce
-                  transaction costs by 50% per transaction.
+                  {t('reducing_cost_text')}
                 </p>
               </div>
             </div>
@@ -36,11 +37,10 @@ export const PointOfView = () => {
               />
               <div className="card-body">
                 <h5 className="card-title fw-semibold">
-                  In all the ways you need
+                  {t('payment_ways')}
                 </h5>
                 <p className="card-text">
-                  Your customers can always Pay with their preferred Payment
-                  methods and desired currencies with Globadyme.
+                  {t('payment_ways_text')}
                 </p>
               </div>
             </div>
@@ -53,11 +53,9 @@ export const PointOfView = () => {
                 alt="Handshake Image"
               />
               <div className="card-body">
-                <h5 className="card-title fw-semibold">Win-Win scenario</h5>
+                <h5 className="card-title fw-semibold">{t('win_win')}</h5>
                 <p className="card-text">
-                  While reducing your transaction costs, we also make sure that
-                  your customers can always Pay with their preferred Payment
-                  methods and currencies.{" "}
+                  {t('win_win_text')}
                 </p>
               </div>
             </div>
@@ -77,37 +75,31 @@ export const PointOfView = () => {
           />
         </div>
         <div className="col-md-6 mt-4 d-flex row align-content-center">
-          <h4 className="fw-semibold text-secondary">What We Do</h4>
-          <h2 className="fw-semibold">The Future of Payments has arrived</h2>
+          <h4 className="fw-semibold text-secondary">{t('what_we_do')}</h4>
+          <h2 className="fw-semibold">{t('what_we_do_title')}</h2>
           <p className="mt-4">
-            Globadyme is a PSP that offers online companys the ability to accept
-            payments with various methods & currencies, reducing transaction
-            costs by 50%.
+            {t('what_we_do_text_1')}
           </p>
           <p className="">
-            We offer the best prices & user experience with a simple onboarding
-            process. We aim to propel the payments industry and provide complex
-            insights while keeping it simple. We offer full transparency to
-            ensure low transaction costs.
+            {t('what_we_do_text_2')}
           </p>
         </div>
       </div>
       {/* Call to action */}
       <div className="row mt-5 bg-secondary rounded rounded-4 shadow-sm">
         <div className="col-md-6 ms-3">
-          <h2 className="fw-semibold text-white mt-3">Interested?</h2>
+          <h2 className="fw-semibold text-white mt-3">{t('cta_title')}</h2>
           <p className="text-white mt-3 mb-3">
-            Fill out the contact form, and we&apos;ll get back to you as soon as
-            possible.
+            {t('cta_text_1')}
           </p>
           <p className="text-white mt-3 mb-3">
-            We look forward to hearing from you!
+            {t('cta_text_2')}
           </p>
         </div>
         <div className="col-md-6 row justify-content-end p-2">
           <Link className="w-75 my-auto" href="/contact">
             <button className="btn btn-light ms-5 rounded-5 w-75 me-5 fw-semibold fs-4 px-3 py-3">
-              Contact us
+              {t('cta_button')}
             </button>
           </Link>
         </div>
