@@ -10,24 +10,24 @@ export const Footer = () => {
       <div className="d-flex justify-content-center">
         <div className="">
           <Image src="/logo.png" width={288} height={68} alt="company logo" />
-          <div className="justify-content-evenly d-flex mt-4">
+          <div className="justify-content-evenly d-flex mt-4 f-icons">
             <Link className="f-link" href="mailto:Yash.ramdjas@globadyme.com">
-              <FiMail size={25} color="black" />
+              <FiMail size={25} color="white" />
             </Link>
             <Link
               className="f-link"
               href="https://www.instagram.com/globadyme/"
             >
-              <FiInstagram size={25} color="black" />
+              <FiInstagram size={25} color="white" />
             </Link>
             <Link
               className="f-link"
               href="https://www.linkedin.com/company/globadyme/about/"
             >
-              <BsLinkedin size={25} color="black" />
+              <BsLinkedin size={25} color="white" />
             </Link>
             <Link className="f-link" href="tel:+31653795484">
-              <BsTelephoneFill size={25} color="black" />
+              <BsTelephoneFill size={25} color="white" />
             </Link>
           </div>
         </div>

@@ -143,8 +143,13 @@ footer {
 
 .f-icons a:hover {
   text-decoration: none;
-  color: #343a40;
-  filter: brightness(0.5);
+  filter: brightness(0.8);
+}
+
+.f-icons a:link {
+  border-radius: 100%;
+  padding: 15px;
+  background-color: #2288CF;
 }
 
 .f-link-container {
