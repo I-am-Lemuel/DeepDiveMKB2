@@ -20,10 +20,10 @@ export default function Investors() {
               </p>
             </div>
           </div>
-          <div className="row mx-auto border-top border-bottom">
+          <div className="row mx-auto border-top border-bottom mt-5">
             <div className="col-md-6 mx-auto">
-              <h1 className="display-4 fw-bold">Advantages</h1>
-              <ol>
+              <h1 className="display-4 fw-bold mb-3 text-primary">Advantages</h1>
+              <ol className="list-inline">
                 <li>
                   <p className="lead">
                     Potential for high returns: Startups have the potential to
