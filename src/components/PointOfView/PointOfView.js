@@ -54,7 +54,6 @@ export const PointOfView = () => {
                 </div>
               </div>
             </div>
-<<<<<<< HEAD
           </div>
         </div>
         {/* Vision*/}
@@ -92,8 +91,3 @@ export const PointOfView = () => {
     </>
   );
 };
-=======
-        </div>
-    )
-}
->>>>>>> 7187c26 (Create login-modal)
