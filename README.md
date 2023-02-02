@@ -1,6 +1,6 @@
 
 ![Logo](https://cdn.discordapp.com/attachments/1069553154745716738/1070621818345492520/logo.png)
-
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 # Globadyme 
 
