@@ -69,6 +69,6 @@ export const PointOfView = () => {
                     </Link>
                 </div>
             </div>
-        </div >
+        </div>
     )
 }
