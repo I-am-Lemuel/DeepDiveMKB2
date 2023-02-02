@@ -32,6 +32,9 @@
         ],
         "/documentation": [
             "documentation"
+        ],
+        "/license": [
+            "license"
         ]
     }
 }
