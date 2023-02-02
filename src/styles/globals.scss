@@ -170,7 +170,7 @@ color: black;
 }
 
 footer {
-  height: 20vh;
+  margin: 3rem 10rem;
 }
 
 .f-icons a:hover {
@@ -192,6 +192,18 @@ footer {
 
 .f-link {
   text-decoration: none;
+}
+
+@media (max-width: 768px) {
+  footer {
+    flex-direction: column !important;
+    align-items: baseline !important;
+    margin: 3rem !important;
+  }
+  .navbar {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
 }
 
 @import "~bootstrap/scss/bootstrap";
