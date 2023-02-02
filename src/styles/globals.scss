@@ -204,6 +204,17 @@ footer {
     flex-direction: column !important;
     align-items: center !important;
   }
+.img{
+  border-radius: 50%;
+
+}
+
+.img:hover{
+  filter: brightness(0.8);
+}
+
+#row2 {
+  margin-top: 3rem;
 }
 
 @import "~bootstrap/scss/bootstrap";
