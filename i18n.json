@@ -35,6 +35,9 @@
         ],
         "/license": [
             "license"
+        ],
+        "/products": [
+            "products"
         ]
     }
 }
