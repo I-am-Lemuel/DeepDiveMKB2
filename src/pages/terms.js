@@ -1,109 +1,75 @@
+import useTranslation from 'next-translate/useTranslation';
+
 export default function Terms() {
+  const { t } = useTranslation('terms');
   return (
     <>
-      <h1 className="display-1 fw-bold text-center">Terms Of Service</h1>
+      <h1 className="display-1 fw-bold text-center">{t('tos_title')}</h1>
 
       <div className="container">
         <div className="border-bottom mb-4">
           <p className="fw-bold">
-            Welcome to our company&apos;s website, where we offer payment
-            solutions to individuals and businesses. These Terms of Service
-            (“TOS”) govern your use of our website, products and services
-            (collectively, “Services”). By accessing or using our Services, you
-            agree to be bound by these TOS, including our Privacy Policy. If you
-            do not agree to these TOS, you may not use our Services.
+            {t('tos_subtitle')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Use of services</p>
+          <p className="display-4 fw-normal">{t('use_of_services_title')}</p>
           <p>
-            You may use our Services only for lawful purposes and in accordance
-            with these TOS. You must be at least 18 years of age to use our
-            Services, and you represent and warrant that you have the right,
-            authority, and capacity to enter into this TOS and to use our
-            Services in accordance with all terms and conditions herein.
+            {t('use_of_services_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Payment Processing Services</p>
+          <p className="display-4 fw-normal">{t('payment_processing_title')}</p>
           <p>
-            Our company provides payment processing services for online
-            transactions. You are responsible for obtaining all necessary
-            approvals, consents and licenses required for you to use our
-            Services
+            {t('payment_processing_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Fees and Payments</p>
+          <p className="display-4 fw-normal">{t('fees_and_payments_title')}</p>
           <p>
-            Our company charges fees for the use of our Services. These fees may
-            include, but are not limited to, transaction fees, monthly service
-            fees, and other charges as specified in our pricing schedule.
+            {t('fees_and_payments_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Confidentiality and Security</p>
+          <p className="display-4 fw-normal">{t('confidentiality_and_security_title')}</p>
           <p>
-            Our company is committed to protecting the security and
-            confidentiality of your information. We use commercially reasonable
-            efforts to store and maintain your information in a secure
-            environment. However, you acknowledge that no data transmission over
-            the Internet can be guaranteed to be 100% secure, and that we cannot
-            ensure or warrant the security of any information you transmit to
-            us.
+            {t('confidentiality_and_security_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Limitation of Liability</p>
+          <p className="display-4 fw-normal">{t('limitation_of_liability_title')}</p>
           <p>
-            You acknowledge and agree that our company shall not be liable for
-            any damages, including but not limited to, indirect, incidental,
-            special, or consequential damages, arising from or in connection
-            with the use of our Services, even if we have been advised of the
-            possibility of such damages.
+            {t('limitation_of_liability_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Termination</p>
+          <p className="display-4 fw-normal">{t('termination_title')}</p>
           <p>
-            Either party may terminate this TOS at any time with or without
-            cause. Upon termination, you must cease all use of our Services and
-            return all confidential information in your possession.
+            {t('termination_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Changes to TOS</p>
+          <p className="display-4 fw-normal">{t('changes_to_tos_title')}</p>
           <p>
-            We may modify these TOS from time to time and such modifications
-            shall be effective upon posting on our website. Your continued use
-            of our Services after any modification indicates your acceptance of
-            the modified TOS.
+            {t('changes_to_tos_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Governing Law</p>
+          <p className="display-4 fw-normal">{t('governing_law_title')}</p>
           <p>
-            These TOS and your use of our Services shall be governed by and
-            construed in accordance with the laws of the jurisdiction in which
-            our company is located.
+            {t('governing_law_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Dispute Resolution</p>
+          <p className="display-4 fw-normal">{t('dispute_resolution_title')}</p>
           <p>
-            Any dispute arising from or relating to these TOS or the use of our
-            Services shall be resolved through binding arbitration in accordance
-            with the rules of the American Arbitration Association.
+            {t('dispute_resolution_text')}
           </p>
         </div>
         <div className="border-bottom mb-4">
-          <p className="display-4 fw-normal">Entire Agreement</p>
+          <p className="display-4 fw-normal">{t('entire_agreement_title')}</p>
           <p>
-            These TOS, together with our Privacy Policy, constitutes the entire
-            agreement between you and our company with respect to the use of our
-            Services. These TOS supersedes all prior understandings and
-            agreements, whether written or oral, regarding the use of our
-            Services.
+            {t('entire_agreement_text')}
           </p>
         </div>
       </div>

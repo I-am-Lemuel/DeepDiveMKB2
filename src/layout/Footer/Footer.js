@@ -3,8 +3,10 @@ import Link from "next/link";
 import React from "react";
 import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
 import { FiInstagram, FiMail } from "react-icons/fi";
+import useTranslation from "next-translate/useTranslation";
 
 export const Footer = () => {
+  const { t } = useTranslation("footer");
   return (
     <footer className="d-flex justify-content-around w-screen">
       <div className="">
@@ -30,29 +32,29 @@ export const Footer = () => {
 
       <div className="d-flex justify-content-center">
         <div className="d-flex flex-column mt-4">
-          <h3 className="fw-bold mb-3">Company</h3>
+          <h3 className="fw-bold mb-3">{t('company')}</h3>
           <Link className="f-link" href="/about">
-            About us
+            {t('about_us')}
           </Link>
           <Link className="f-link" href="/license">
-            Licensing
+            {t('licensing')}
           </Link>
           <Link className="f-link" href="/documentation">
-            Documentation
+            {t('documentation')}
           </Link>
         </div>
       </div>
       <div className="d-flex justify-content-center">
         <div className="d-flex flex-column mt-4">
-          <h3 className="fw-bold mb-3">Company</h3>
+          <h3 className="fw-bold mb-3">{t('company')}</h3>
           <Link className="f-link" href="/privacy">
-            Privacy Policy
+            {t('privacy_policy')}
           </Link>
           <Link className="f-link" href="/investors">
-            Investor Relations
+            {t('investor_relations')}
           </Link>
           <Link className="f-link" href="/terms">
-            Terms and Conditions
+            {t('terms_and_conditions')}
           </Link>
         </div>
       </div>
