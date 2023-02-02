@@ -5,6 +5,7 @@ import { Image } from "react-bootstrap";
 export const PointOfView = () => {
   const { t } = useTranslation("home");
   return (
+    <>
     <div className="container mt-5 justify-content-center mb-5">
       <div>
         <h2 className="text-center fw-bold mb-4">{t("pov")}</h2>
@@ -82,6 +83,6 @@ export const PointOfView = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
