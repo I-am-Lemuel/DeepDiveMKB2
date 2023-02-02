@@ -1,6 +1,8 @@
 import React, { useState } from "react";
+import useTranslation from "next-translate/useTranslation";
 
 export default function LoginModal() {
+  const { t } = useTranslation("common");
   //make a function to open and close the modal with useState
   const [showModal, setShowModal] = useState(false);
 
@@ -32,7 +34,7 @@ export default function LoginModal() {
               <div class="form-outline mb-4">
                 <input type="email" id="form2Example1" class="form-control" />
                 <label class="form-label" for="form2Example1">
-                  Email address
+                  {t('modal_mail')}
                 </label>
               </div>
               <div class="form-outline mb-4">
@@ -42,7 +44,7 @@ export default function LoginModal() {
                   class="form-control"
                 />
                 <label class="form-label" for="form2Example2">
-                  Password
+                  {t('modal_password')}
                 </label>
               </div>
               <div class="row mb-4">
@@ -57,13 +59,13 @@ export default function LoginModal() {
                     />
                     <label class="form-check-label" for="form2Example31">
                       {" "}
-                      Remember me{" "}
+                      {t('modal_remember')}{" "}
                     </label>
                   </div>
                 </div>
 
                 <div class="col">
-                  <a href="#!">Forgot password?</a>
+                  <a href="#!">{t('modal_forgot')}</a>
                 </div>
               </div>
               <button
@@ -75,7 +77,7 @@ export default function LoginModal() {
               </button>
               <div class="text-center">
                 <p>
-                  Not a member? <a href="#!">Register</a>
+                  {t('modal_notamember')} <a href="#!">{t('modal_signup')}</a>
                 </p>
               </div>
             </form>

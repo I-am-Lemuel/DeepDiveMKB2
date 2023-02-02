@@ -6,7 +6,8 @@
     "defaultLocale": "en",
     "pages": {
         "*": [
-            "common"
+            "common",
+            "footer"
         ],
         "/": [
             "home"
@@ -19,6 +20,21 @@
         ],
         "/contact": [
             "contact"
+        ],
+        "/terms": [
+            "terms"
+        ],
+        "/privacy": [
+            "privacy"
+        ],
+        "/investors": [
+            "investors"
+        ],
+        "/documentation": [
+            "documentation"
+        ],
+        "/license": [
+            "license"
         ]
     }
 }
