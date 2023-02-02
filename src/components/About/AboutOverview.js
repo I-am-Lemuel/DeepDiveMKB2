@@ -1,21 +1,15 @@
 import { Image } from "react-bootstrap";
+import useTranslation from "next-translate/useTranslation";
 
 export const AboutOverview = () => {
+  const { t } = useTranslation("about");
   return (
     <div className="container mt-5 mb-5 mx-auto">
       <div className="row mx-auto">
         <div className="col-md-6 mx-auto">
-          <h1 className="display-4 fw-bold">Overview</h1>
+          <h1 className="display-4 fw-bold">{t('overview_title')}</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
-            elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
-            vehicula ut id elit. Donec sed odio dui. Donec id elit non mi porta
-            gravida at eget metus. Donec ullamcorper nulla non metus auctor
-            fringilla. Nullam quis risus eget urna mollis ornare vel eu leo.
-            Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed
-            odio dui. Donec id elit non mi porta gravida at eget metus. Donec
-            ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget
-            urna mollis ornare vel eu leo.
+            {t('overview_text')}
           </p>
         </div>
         <div className="col-md-6 mx-auto d-flex justify-content-end">
@@ -40,17 +34,9 @@ export const AboutOverview = () => {
           />
         </div>
         <div className="col-md-6 mx-auto">
-          <h1 className="display-4 fw-bold">Our Motto</h1>
+          <h1 className="display-4 fw-bold">{t('motto_title')}</h1>
           <p className="lead">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla vitae
-            elit libero, a pharetra augue. Nullam id dolor id nibh ultricies
-            vehicula ut id elit. Donec sed odio dui. Donec id elit non mi porta
-            gravida at eget metus. Donec ullamcorper nulla non metus auctor
-            fringilla. Nullam quis risus eget urna mollis ornare vel eu leo.
-            Nullam id dolor id nibh ultricies vehicula ut id elit. Donec sed
-            odio dui. Donec id elit non mi porta gravida at eget metus. Donec
-            ullamcorper nulla non metus auctor fringilla. Nullam quis risus eget
-            urna mollis ornare vel eu leo.
+            {t('motto_text')}
           </p>
         </div>
       </div>
