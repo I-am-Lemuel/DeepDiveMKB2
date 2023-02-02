@@ -56,6 +56,8 @@ export const PointOfView = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="container">
         {/* Vision*/}
         <div className="row mt-5">
           <div className="col-md-6">
@@ -73,7 +75,7 @@ export const PointOfView = () => {
           </div>
         </div>
         {/* Call to action */}
-        <div className="row mt-5 bg-secondary rounded rounded-4 shadow-sm">
+        <div className="row mt-5 bg-secondary rounded rounded-4 shadow-sm mb-5">
           <div className="col-md-6 ms-3">
             <h2 className="fw-semibold text-white mt-3">{t("cta_title")}</h2>
             <p className="text-white mt-3 mb-3">{t("cta_text_1")}</p>
