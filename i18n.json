@@ -23,6 +23,9 @@
         ],
         "/terms": [
             "terms"
+        ],
+        "/privacy": [
+            "privacy"
         ]
     }
 }
