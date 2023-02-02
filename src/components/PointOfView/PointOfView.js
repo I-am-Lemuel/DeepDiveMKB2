@@ -5,6 +5,7 @@ import useTranslation from "next-translate/useTranslation";
 export const PointOfView = () => {
   const { t } = useTranslation("home");
   return (
+    <>
     <div className="container mt-5 justify-content-center mb-5">
       <div>
         <h2 className="text-center fw-bold mb-4">{t('pov')}</h2>
@@ -58,7 +59,10 @@ export const PointOfView = () => {
                 </p>
               </div>
             </div>
-          </div>
+        </div>
+  
+    
+       </div>
         </div>
       </div>
       {/* Vision*/}
@@ -100,6 +104,6 @@ export const PointOfView = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </>
   );
 };
