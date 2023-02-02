@@ -77,9 +77,9 @@ Note: These are the high-level steps, and the details may vary based on your spe
 
 ## Tech Stack
 
-**Client:** nextcs, react and bootstrap
+**Client:** NextJS, React and Bootstrap 5
 
-**Server:** nextcs, node and scss
+**Server:** NextJS, NodeJS and SCSS
 
 
 ## Authors

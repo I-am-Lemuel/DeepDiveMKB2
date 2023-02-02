@@ -53,12 +53,12 @@ export default function Products() {
 
         <div className="col">
           <Image className="img" src="/images/credit-cards.svg" alt="APPLEPAY" width={180} height={180} />
-          <p><strong>Visa</strong> {t('visa_desc')}</p>
+          <p><strong>Visa.</strong> {t('visa_desc')}</p>
         </div>
 
         <div className="col">
           <Image className="img" src="/images/credit-cards.svg" alt="GOOGLEPAY" width={180} height={180} />
-          <p><strong>Mastercard</strong> {t('mastercard_desc')}</p>
+          <p><strong>Mastercard.</strong> {t('mastercard_desc')}</p>
         </div>
       </div>
 
