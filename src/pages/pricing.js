@@ -1,5 +1,5 @@
-import { useState } from "react";
 import { PricingTablePayment } from "../components/PricingTablePayment/PricingTablePayment";
+import { useState } from "react";
 import { PricingTableRefund } from "../components/PricingTableRefund/PricingTableRefund";
 
 export default function Pricing() {

@@ -31,7 +31,7 @@ export const Footer = () => {
             </Link>
           </div>
         </div>
-      </div
+      </div>
       <div className="d-flex justify-content-center">
         <div className="d-flex flex-column mt-4">
           <h3 className="fw-bold mb-3">Company</h3>
