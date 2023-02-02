@@ -1,8 +1,10 @@
 import { PricingTablePayment } from "../components/PricingTablePayment/PricingTablePayment";
 import { useState } from "react";
 import { PricingTableRefund } from "../components/PricingTableRefund/PricingTableRefund";
+import useTranslation from "next-translate/useTranslation";
 
 export default function Pricing() {
+  const { t } = useTranslation("pricing");
   const [isPayment, setIsPayment] = useState(true);
   return (
     <div className="container">
@@ -16,13 +18,13 @@ export default function Pricing() {
           }
           onClick={() => setIsPayment(false)}
         >
-          Payment
+          {t('payment_title')}
         </button>
         <button
           className={isPayment ? "active btn btn-secondary" : " btn btn-light"}
           onClick={() => setIsPayment(true)}
         >
-          Refund
+          {t('refund_title')}
         </button>
       </div>
 

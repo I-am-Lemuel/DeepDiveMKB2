@@ -1,0 +1,12 @@
+{
+    "payment_title": "Payment",
+    "payment_method": "Payment method",
+    "country_of_client": "Country of client",
+    "handling_fee": "Handling fee",
+    "payment_fee": "Payment fee",
+    "refund_title": "Refund",
+    "refund_fee": "Refund fee",
+    "netherlands": "Netherlands",
+    "worldwide": "Worldwide",
+    "currency_symbol": "$"
+}

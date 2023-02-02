@@ -1,0 +1,11 @@
+{
+    "success": "Uw bericht is succesvol verzonden",
+    "danger": "Er was een fout bij het verzenden van uw bericht",
+    "name": "Naam",
+    "name_placeholder": "Voer uw naam in",
+    "email": "E-mailadres",
+    "email_placeholder": "Voer uw e-mailadres in",
+    "message": "Bericht",
+    "message_placeholder": "Voer uw bericht in",
+    "submit": "Verzenden"
+}

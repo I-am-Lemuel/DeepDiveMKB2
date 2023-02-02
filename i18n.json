@@ -1,9 +1,24 @@
 {
-    "locales": ["en", "nl"],
+    "locales": [
+        "en",
+        "nl"
+    ],
     "defaultLocale": "en",
     "pages": {
-     "*": ["common"],
-    "/": ["home"],
-    "/about": ["about"]
+        "*": [
+            "common"
+        ],
+        "/": [
+            "home"
+        ],
+        "/about": [
+            "about"
+        ],
+        "/pricing": [
+            "pricing"
+        ],
+        "/contact": [
+            "contact"
+        ]
     }
 }
