@@ -28,7 +28,9 @@ export default function Contact() {
   };
 
   return (
+    
     <div className="container">
+      <h1 className="display-1 mt-5 text-center fw-bolder">Contact Us</h1>
       <Container className={styles.container}>
         {showSuccess && (
           <Alert variant="success">{t('success')}</Alert>
@@ -68,12 +70,15 @@ export default function Contact() {
             <Form.Control
               className={styles.textarea}
               as="textarea"
-              rows="3"
+              rows="4"
               placeholder={t('message_placeholder')}
               name="message"
               value={values.message}
               onChange={handleChange}
               required
+              maxLength={500}
+              minLength={10}
+
             />
           </Form.Group>
           <div className="btn">
