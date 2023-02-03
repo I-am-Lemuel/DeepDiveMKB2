@@ -12,7 +12,7 @@ export const Navbar = () => {
     <nav className="navbar bg-white shadow">
       <div className="col">
         <Link href="/">
-          <Image src="/logo.png" alt="logo" width={384} height={88} />
+          <Image src="/logo.png" alt="logo" width={350} height={80} />
         </Link>
       </div>
       <div className="col">
