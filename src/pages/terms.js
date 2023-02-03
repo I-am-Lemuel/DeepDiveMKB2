@@ -4,7 +4,7 @@ export default function Terms() {
   const { t } = useTranslation('terms');
   return (
     <>
-      <h1 className="display-1 fw-bold text-center">{t('tos_title')}</h1>
+      <h1 className="display-1 fw-bold text-center mt-4">{t('tos_title')}</h1>
 
       <div className="container">
         <div className="border-bottom mb-4">
