@@ -15,7 +15,7 @@ export const AboutOverview = () => {
         <div className="col-md-6 mx-auto d-flex justify-content-end">
           <Image
             className="rounded-5 shadow about-image-h mb-3"
-            src="https://wsrv.nl/?url=https://inai.io/hs-fs/hubfs/Main%20differences%20between%202D%20and%203D%20payment%20gateways.jpeg?width=1081&name=Main%20differences%20between%202D%20and%203D%20payment%20gateways.jpeg"
+            src="/images/about_us.jpg"
             alt="About Us"
             width={625}
             height={470}
@@ -27,7 +27,7 @@ export const AboutOverview = () => {
         <div className="col-md-6 mx-auto d-flex justify-content-start ">
           <Image
             className="rounded-5 shadow about-image-h mt-3"
-            src="https://wsrv.nl/?url=https://cdn.dribbble.com/users/527197/screenshots/14632885/finance_dribbble_4x.png"
+            src="/images/finance.png"
             alt="About Us"
             width={580}
             height={470}

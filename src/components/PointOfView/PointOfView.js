@@ -14,7 +14,7 @@ export const PointOfView = () => {
             <div className="col">
               <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
                 <Image
-                  src="https://wsrv.nl/?url=https://www.fisdom.com/wp-content/uploads/2021/11/invoice-bill-icon.webp&w=500&h=250&fit=cover"
+                  src="/images/transactions.png"
                   className="card-img-top"
                   alt="Transactions Image"
                   height={180}
@@ -30,7 +30,7 @@ export const PointOfView = () => {
             <div className="col">
               <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
                 <Image
-                  src="https://wsrv.nl/?url=https://www.buckaroo.eu/media/3732/betaaloplossingen-buckaroo-banner-2022-2-new.png&w=500&h=250&fit=cover"
+                  src="/images/payment_method.png"
                   className="card-img-top"
                   alt="Payment method Image"
                   height={180}
@@ -46,7 +46,7 @@ export const PointOfView = () => {
             <div className="col">
               <div className="card h-100 shadow-sm w-75 mx-auto pov-card-h">
                 <Image
-                  src="https://i.imgur.com/k6UQ0jD.png"
+                  src="/images/handshake.png"
                   className="card-img-top"
                   alt="Handshake Image"
                   height={180}
@@ -65,7 +65,7 @@ export const PointOfView = () => {
         <div className="row mt-5">
           <div className="col-md-6">
             <Image
-              src="https://i.imgur.com/oApovRS.png"
+              src="/images/transaction.png"
               className="card-img-top rounded rounded-4 shadow-sm "
               alt="Transactions Image"
               height={400}
