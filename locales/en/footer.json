@@ -5,5 +5,11 @@
     "company": "Company",
     "privacy_policy": "Privacy Policy",
     "investor_relations": "Investor Relations",
-    "terms_and_conditions": "Terms and Conditions"
+    "terms_and_conditions": "Terms and Conditions",
+    "lang_title": "Language",
+    "lang_en": "English 🇬🇧",
+    "lang_de": "Deutsch 🇩🇪",
+    "lang_nl": "Nederlands 🇳🇱",
+    "lang_fr": "Fran\u00e7ais 🇫🇷",
+    "lang_es": "Espa\u00f1ol 🇪🇸"
 }

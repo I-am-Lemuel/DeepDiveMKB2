@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { BsLinkedin, BsTelephoneFill } from "react-icons/bs";
 import { FiInstagram, FiMail } from "react-icons/fi";
+import { LanguageSelector } from "../../components/LanguageSelector/LanguageSelector";
 import useTranslation from "next-translate/useTranslation";
 
 export const Footer = () => {
@@ -11,6 +12,7 @@ export const Footer = () => {
     <footer className="d-flex justify-content-around w-screen">
       <div className="">
         <Image src="/logo.png" width={288} height={68} alt="company logo" />
+        <LanguageSelector />
         <div className="justify-content-evenly d-flex mt-4 f-icons">
           <Link className="f-link" href="mailto:Yash.ramdjas@globadyme.com">
             <FiMail size={25} color="white" />
