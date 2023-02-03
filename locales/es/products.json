@@ -1,0 +1,14 @@
+{
+    "page_title": "Todos los métodos de pago en línea",
+    "page_description": "A continuación se muestra una lista de todos los métodos de pago en línea que puedes usar para pagar en una tienda en línea.",
+    "american_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "paypal_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "klarna_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "ideal_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "sepa_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "bancontact_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "sofort_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "giropay_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "visa_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum.",
+    "mastercard_desc": "lorem ipsum, lorem lorem, ipsum lorem ipsum."
+}
