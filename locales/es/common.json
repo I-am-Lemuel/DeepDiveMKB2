@@ -1,0 +1,15 @@
+{
+    "nav_products": "Productos",
+    "nav_pricing": "Precios",
+    "nav_contact": "Contacto",
+    "nav_about": "Sobre nosotros",
+    "nav_login": "Iniciar sesión",
+    "nav_signup": "Registrarse",
+    "modal_login": "Iniciar sesión",
+    "modal_mail": "Dirección de correo electrónico",
+    "modal_password": "Contraseña",
+    "modal_remember": "Recuérdame",
+    "modal_forgot": "¿Olvidó la contraseña?",
+    "modal_notamember": "¿No eres miembro?",
+    "modal_signup": "Registrarse"
+}
