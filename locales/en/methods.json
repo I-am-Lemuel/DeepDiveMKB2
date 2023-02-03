@@ -3,75 +3,50 @@
         "title": "PayPal",
         "description": "PayPal is a trusted digital wallet, with over 300 million active users in over 200 countries - making it a truly global offering. Enabling PayPal supports your shopper’s preferences, helps improve conversion, and provides access to new customers. In fact, shoppers are 3X more likely to complete a purchase when PayPal is available at checkout. Together, PayPal and Adyen can enable your customers to have a fast and secure payment experience.",
         "price": " €0.10 +Direct contract with PayPal "
-        
-
-        
-
     },
-
     "american-express": {
         "title": "American Express",
         "description": "Accepted in more than 130 countries, and with over 100 million cards in use, American Express (Amex), is a key payment method worldwide. Amex cardholders spend on average three to four times as much as Visa and Mastercard cardholders, making it of particular interest to premium and high-end brands",
         "price": "€0.10 + 3.95%"
-
-
-
     },
-
     "klarna": {
         "title": "Klarna",
         "description": "Since its foundation in 2014, Klarna has become one of the world's largest providers of buy now, pay later services. 90 million active consumers use Klarna to shop online in 16 regions across three continents.",
         "price": "Netherlands€0.10 + 2.99% + € 0.49 "
     },
-
     "ideal": {
         "title": "IDEAL",
         "description": "iDEAL is by far the most popular payment method in the Netherlands. There are no chargebacks and faster settlement times as iDEAL is a bank-to-bank transfer, covered by all major Dutch consumer banks. This payment method is perceived as secure, fast, and convenient. Shoppers can scan a QR code on desktop to then pay on mobile, and therefore avoid entering payment details manually.",
         "price": "€0.10 + 0.20"
-
     },
-
     "sepa": {
         "title": "SEPA",
         "description": "SEPA (Single Euro Payments Area) Direct Debit was introduced by the European Payments Council to create a standardized payments infrastructure within the E.U. With SEPA Direct Debit, businesses can process one-off or recurring payments for E.U. customers, making it a key payment method for businesses looking to expand across Europe.",
         "price": "€0.10 + 0.25"
-
     },
-
     "bancontact": {
-        "title": "gg",
-        "description": "lorem",
+        "title": "BANCONTACT",
+        "description": "Bancontact is the most popular online payment method in Belgium, with over 15 million cards in circulation. Customers use a Bancontact card or mobile app linked to a Belgian bank account to make online payments that are secure, guaranteed, and confirmed immediately.",
         "price": "€0.10 + 3.95%  "
-
     },
-
     "sofort": {
         "title": "SOFORT",
         "description": "SOFORT is a popular online banking payment method in Europe with high usage in Germany, Austria, Switzerland and Belgium. 85 million people use SOFORT, making it a must-have for any business wanting to operate in Europe.",
         "price": "€0.10 + from 1% to 2%"
-
     },
-
     "giropay": {
         "title": "GIROPAY",
         "description": "girocard is one of Germany's most prevalent cards with over 100 million in circulation. Users can pay via chip and pin or contactless at over 840,000 POS terminals and use a network of over 58,000 ATMs",
         "price": "€0.10 + Interchange ++"
-
     },
-
     "visa": {
         "title": "Visa",
         "description": "  Visa is the largest global card network in the world by transaction value, ubiquitous worldwide. Visa positions itself as 'the best way to pay and be paid for everyone.",
         "price": "€0.10 + Interchange ++"
-
     },
-
     "mastercard": {
         "title": "Mastercard",
         "description": "As one of the largest card schemes in the world, Mastercard dominates the co-branded credit card market in Europe. It’s also a market leader in many countries including Austria, Brazil, Canada, Colombia, Benelux, Germany, Hungary, and Venezuela.",
         "price": "€0.10 + Interchange ++"
-
     }
-
-
 }
