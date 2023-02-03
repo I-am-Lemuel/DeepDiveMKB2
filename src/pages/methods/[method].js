@@ -10,7 +10,8 @@ export default function Method() {
   return (
     <div className="d-flex h-screen">
       <div className="w-50">
-        <button onClick={() => router.push("/products")}>Back</button> 
+      <br></br>
+        <button onClick={() => router.push("/products")} className="btn btn-dark text-white rounded-pill shadow-sm login-btn ml-5">Back</button> 
         <h1 className="display-1 fw-bold">{t(`${method}.title`)}</h1>
         <h4>{t(`${method}.description`)}</h4> <br></br>
         <h5>Cost paying method</h5>
@@ -18,7 +19,7 @@ export default function Method() {
       </div>
       <div className="w-50 d-flex justify-content-center">
         <div className="w-50 d-flex  justify-content-center flex-column align-items-center" id={t(`${method}`)} >
-          <h1>{method}</h1>
+          <h1 className="text-white">{method}</h1>
           <Image  
             src={`/images/${method}.svg`}
             width={200}
