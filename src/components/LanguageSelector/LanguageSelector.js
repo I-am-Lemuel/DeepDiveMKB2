@@ -11,6 +11,7 @@ export const LanguageSelector = () => {
                 <DropdownButton id="dropdown-basic-button" title={t('lang_title')}>
                     <Dropdown.Item onClick={async () => await setLanguage('en')}>{t('lang_en')}</Dropdown.Item>
                     <Dropdown.Item onClick={async () => await setLanguage('nl')}>{t('lang_nl')}</Dropdown.Item>
+                    <Dropdown.Item onClick={async () => await setLanguage('es')}>{t('lang_es')}</Dropdown.Item>
                 </DropdownButton>
             </div>
         </div>
