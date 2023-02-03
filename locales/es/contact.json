@@ -1,0 +1,11 @@
+{
+    "success": "Su mensaje se ha enviado con éxito",
+    "danger": "Hubo un error al enviar su mensaje",
+    "name": "Nombre",
+    "name_placeholder": "Ingrese su nombre",
+    "email": "Dirección de correo electrónico",
+    "email_placeholder": "Ingrese su dirección de correo electrónico",
+    "message": "Mensaje",
+    "message_placeholder": "Ingrese su mensaje",
+    "submit": "Enviar"
+}

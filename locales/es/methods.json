@@ -1,0 +1,52 @@
+{
+    "paypal": {
+        "title": "PayPal",
+        "description": "PayPal es un monedero digital confiable, con más de 300 millones de usuarios activos en más de 200 países, lo que lo convierte en una oferta verdaderamente global. Habilitar PayPal respeta las preferencias de los compradores, ayuda a mejorar la conversión y brinda acceso a nuevos clientes. De hecho, los compradores tienen 3 veces más probabilidades de completar una compra cuando PayPal está disponible en el proceso de pago. Juntos, PayPal y Adyen pueden permitir a sus clientes tener una experiencia de pago rápida y segura.",
+        "price": "€ 0.10 + Contrato directo con PayPal"
+    },
+    "american-express": {
+        "title": "American Express",
+        "description": "Aceptado en más de 130 países y con más de 100 millones de tarjetas en uso, American Express (Amex) es un método de pago clave en todo el mundo. Los titulares de tarjetas Amex gastan en promedio tres a cuatro veces más que los titulares de tarjetas Visa y Mastercard, lo que lo hace de particular interés para las marcas premium y de alta gama",
+        "price": "€0.10 + 3.95%"
+    },
+    "klarna": {
+        "title": "Klarna",
+        "description": "Desde su fundación en 2014, Klarna se ha convertido en uno de los mayores proveedores de servicios de compra ahora, paga después en el mundo. 90 millones de consumidores activos usan Klarna para comprar en línea en 16 regiones en tres continentes.",
+        "price": "Países Bajos €0.10 + 2.99% + €0.49"
+    },
+    "ideal": {
+        "title": "IDEAL",
+        "description": "iDEAL es con mucho el método de pago más popular en los Países Bajos. No hay reembolsos y tiempos de liquidación más rápidos, ya que iDEAL es una transferencia de banco a banco, cubierta por todos los principales bancos de consumo holandeses. Este método de pago es percibido como seguro, rápido y conveniente. Los compradores pueden escanear un código QR en el escritorio y luego pagar en el móvil, evitando así ingresar los detalles de pago manualmente.",
+        "price": "€0.10 + 0.20"
+    },
+    "sepa": {
+        "title": "SEPA",
+        "description": "SEPA (Área Única de Pagos en Euro) el débito directo fue introducido por el Consejo de Pagos Europeo para crear una infraestructura de pagos normalizada dentro de la UE. Con SEPA Direct Debit, las empresas pueden procesar pagos únicos o recurrentes para clientes de la UE, lo que lo convierte en un método clave de pago para las empresas que buscan expandirse en Europa.",
+        "price": "€0.10 + 0.25"
+    },
+    "bancontact": {
+        "title": "BANCONTACT",
+        "description": "Bancontact es el método de pago en línea más popular en Bélgica, con más de 15 millones de tarjetas en circulación. Los clientes usan una tarjeta Bancontact o una aplicación móvil vinculada a una cuenta bancaria belga para realizar pagos en línea que son seguros, garantizados y confirmados de inmediato.",
+        "price": "€0.10 + 3.95%"
+    },
+    "sofort": {
+        "title": "SOFORT",
+        "description": "SOFORT es un popular método de pago por banca en línea en Europa con una alta usabilidad en Alemania, Austria, Suiza y Bélgica. 85 millones de personas usan SOFORT, lo que lo convierte en un elemento imprescindible para cualquier empresa que desee operar en Europa.",
+        "price": "€0.10 + desde 1% a 2%"
+    },
+    "giropay": {
+        "title": "GIROPAY",
+        "description": "girocard es una de las tarjetas más prevalentes de Alemania con más de 100 millones en circulación. Los usuarios pueden pagar a través de chip y pin o sin contacto en más de 840.000 terminales POS y usar una red de más de 58.000 cajeros automáticos.",
+        "price": "€0.10 + Intercambio ++"
+    },
+    "visa": {
+        "title": "Visa",
+        "description": "Visa es la mayor red global de tarjetas en el mundo en términos de valor de transacción, ubicua en todo el mundo. Visa se posiciona como 'la mejor manera de pagar y ser pagado para todos.",
+        "price": "€0.10 + Intercambio ++"
+    },
+    "mastercard": {
+        "title": "Mastercard",
+        "description": "Como uno de los mayores esquemas de tarjetas en el mundo, Mastercard domina el mercado de tarjetas de crédito co-branded en Europa. También es líder de mercado en muchos países, incluyendo Austria, Brasil, Canadá, Colombia, Benelux, Alemania, Hungría y Venezuela.",
+        "price": "€0.10 + Intercambio ++"
+    }
+}

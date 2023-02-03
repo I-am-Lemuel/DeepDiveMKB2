@@ -1,0 +1,12 @@
+{
+    "payment_title": "Pago",
+    "payment_method": "Método de pago",
+    "country_of_client": "País del cliente",
+    "handling_fee": "Tarifa de manipulación",
+    "payment_fee": "Tarifa de pago",
+    "refund_title": "Reembolso",
+    "refund_fee": "Tarifa de reembolso",
+    "netherlands": "Países Bajos",
+    "worldwide": "En todo el mundo",
+    "currency_symbol": "€"
+}

@@ -1,3 +1,52 @@
 {
-    "title": "Globadyme"
+    "paypal": {
+        "title": "PayPal",
+        "description": "PayPal is een vertrouwde digitale portemonnee met meer dan 300 miljoen actieve gebruikers in meer dan 200 landen, waardoor het een echt wereldwijde aanbieding is. Het ondersteunen van PayPal bevordert de voorkeuren van uw koper, verbetert de conversie en geeft toegang tot nieuwe klanten. In feite zijn kopers 3 keer waarschijnlijker om een aankoop te voltooien als PayPal beschikbaar is bij de checkout. Samen kunnen PayPal en Adyen uw klanten een snelle en veilige betaalervaring bieden.",
+        "price": "€0,10 + Direct contract met PayPal"
+    },
+    "american-express": {
+        "title": "American Express",
+        "description": "Geaccepteerd in meer dan 130 landen en met meer dan 100 miljoen kaarten in gebruik, is American Express (Amex) een belangrijke betaalmethode wereldwijd. Amex-kaarthouders besteden gemiddeld drie tot vier keer zoveel als Visa- en Mastercard-kaarthouders, wat het vooral interessant maakt voor premium- en high-end merken",
+        "price": "€0,10 + 3,95%"
+    },
+    "klarna": {
+        "title": "Klarna",
+        "description": "Sinds zijn oprichting in 2014 is Klarna uitgegroeid tot een van de grootste aanbieders van buy now, pay later-diensten ter wereld. 90 miljoen actieve consumenten gebruiken Klarna om online te winkelen in 16 regio's over drie continenten.",
+        "price": "Nederland€0,10 + 2,99% + €0,49"
+    },
+    "ideal": {
+        "title": "IDEAL",
+        "description": "iDEAL is verreweg de populairste betaalmethode in Nederland. Er zijn geen chargebacks en snellere afwikkeltijden, omdat iDEAL een bank-naar-bank-overboeking is, gedekt door alle grote Nederlandse consumentenbanken. Deze betaalmethode wordt als veilig, snel en gemakkelijk beschouwd. Kopers kunnen een QR-code scannen op de desktop en vervolgens op de mobiele telefoon betalen, waardoor ze de betalingsgegevens niet handmatig hoeven in te voeren.",
+        "price": "€0,10 + 0,20"
+    },
+    "sepa": {
+        "title": "SEPA",
+        "description": "SEPA (Enkelvoudig EuroBetaalgebied) Direct Debit is ingevoerd door de Europese Payments Raad om een gestandaardiseerd betalinginfrastructuur binnen de EU te creëren. Met SEPA Direct Debit kunnen bedrijven eenmalige of terugkerende betalingen verwerken voor EU-klanten, wat het een belangrijk betaalmiddel is voor bedrijven die zich willen uitbreiden in Europa.",
+        "price": "€0,10 + 0,25"
+    },
+    "bancontact": {
+        "title": "BANCONTACT",
+        "description": "Bancontact is de populairste online betaalmethode in België, met meer dan 15 miljoen kaarten in omloop. Klanten gebruiken een Bancontact-kaart of mobiele app die is gekoppeld aan een Belgisch bankrekening om online betalingen te doen die veilig, gegarandeerd en onmiddellijk bevestigd worden.",
+        "price": "€0,10 + 3,95%"
+    },
+    "sofort": {
+        "title": "SOFORT",
+        "description": "SOFORT is een populaire online bankbetalingsmethode in Europa met hoge gebruiksfrequentie in Duitsland, Oostenrijk, Zwitserland en België. 85 miljoen mensen gebruiken SOFORT, wat het een must-have is voor elk bedrijf dat in Europa wil opereren.",
+        "price": "€0,10 + van 1% tot 2%"
+    },
+    "giropay": {
+        "title": "GIROPAY",
+        "description": "girocard is een van de meest voorkomende kaarten in Duitsland met meer dan 100 miljoen in omloop. Gebruikers kunnen via chip- en pincode of contactloos betalen bij meer dan 840.000 POS-terminals en maken gebruik van een netwerk van meer dan 58.000 pinautomaten",
+        "price": "€0,10 + Interchange ++"
+    },
+    "visa": {
+        "title": "Visa",
+        "description": "Visa is het grootste wereldwijde kaartennetwerk ter wereld op basis van transactiewaarde en is overal ter wereld aanwezig. Visa profileert zichzelf als 'de beste manier om te betalen en betaald te worden voor iedereen.",
+        "price": "€0,10 + Interchange ++"
+    },
+    "mastercard": {
+        "title": "Mastercard",
+        "description": "Als een van de grootste kaartensystemen ter wereld, domineert Mastercard de co-branded creditcardmarkt in Europa. Het is ook een marktleider.",
+        "price": "€0,10 + Interchange ++"
+    }
 }
