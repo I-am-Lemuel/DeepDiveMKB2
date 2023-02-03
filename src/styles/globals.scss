@@ -226,4 +226,44 @@ footer {
   height: 100vh;
 }
 
+#paypal{
+  background-color: #1C93D8;
+}
+
+#american-express{
+  background-color: #2784D7;
+}
+
+#klarna{
+  background-color: #FFA2BA;
+}
+
+#ideal{
+  background-color: #D4267D;
+}
+
+#sepa{
+  background-color: #17a2b8;
+}
+
+#bancontact{
+  background-color: #D9E0E5;
+}
+
+#sofort{
+  background-color: #F0F0F0;
+}
+
+#giropay{
+  background-color: #F5F7FA;
+}
+
+#visa{
+  background-color: #3752D3;
+}
+
+#mastercard{
+  background-color: #262626;
+}
+
 @import "~bootstrap/scss/bootstrap";

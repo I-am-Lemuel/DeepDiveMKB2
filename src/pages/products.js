@@ -68,8 +68,8 @@ export default function Products() {
         </div>
 
         <div className="col">
-        <Link href="/methods/apple-pay">
-          <Image className="img" src="/images/apple-pay.svg" alt="APPLEPAY" width={180} height={180} />
+        <Link href="/methods/visa">
+          <Image className="img" src="/images/visa.svg" alt="APPLEPAY" width={180} height={180} />
         </Link>
           <p><strong>Visa.</strong> {t('visa_desc')}</p>
         </div>
@@ -86,16 +86,6 @@ export default function Products() {
 
 
 
-
-
-      {/* <p>Paypal</p> */}
-      {/* <p>Klarna</p> */}
-      {/* <p>IDEAL</p> */}
-      {/* <p>SEPA</p> */}
-      {/* <p>Bancontact</p> */}
-      {/* <p>Sofort</p> */}
-      {/* <p>Giropay</p> */}
-      {/* <p>Apple Pay</p> */}
     </div>
 
   )
