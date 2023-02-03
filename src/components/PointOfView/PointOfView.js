@@ -80,8 +80,8 @@ export const PointOfView = () => {
         </div>
         {/* Call to action */}
         <div className="container">
-          <div className="justify-content-end row mt-5 bg-secondary rounded rounded-4 shadow-sm mb-5">
-            <div className="">
+          <div className="justify-content-end row mt-5 bg-secondary rounded rounded-5 shadow-sm mb-5">
+            <div className="w-50">
               <h2 className="fw-semibold text-white mt-3">{t("cta_title")}</h2>
               <p className="text-white mt-3 mb-3">{t("cta_text_1")}</p>
               <p className="text-white mt-3 mb-3">{t("cta_text_2")}</p>
