@@ -55,7 +55,6 @@ export default function LoginModal() {
                       type="checkbox"
                       value=""
                       id="form2Example31"
-                      checked
                     />
                     <label class="form-check-label" for="form2Example31">
                       {" "}
